@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <TextView
+        android:singleLine="true"
+        android:paddingRight="@dimen/dimen_10dp"
+        android:textSize="@dimen/dimen_35sp"
+        android:gravity="bottom|right"
+        android:id="@id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_70dp"
+        android:layout_marginBottom="@dimen/dimen_10dp"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:layout_marginRight="@dimen/dimen_10dp"
+        android:layout_marginTop="@dimen/dimen_50dp"
+        android:background="@drawable/white_bg"
+        android:editable="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_15dp"
+        android:layout_marginRight="@dimen/dimen_15dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@id/clear"
+            android:layout_width="@dimen/dimen_72dp"
+            android:layout_height="@dimen/dimen_72dp"
+            android:background="@drawable/other_button_drawable"
+            android:gravity="bottom|right"
+            android:padding="@dimen/dimen_10dp"
+            android:text="@string/clear" />
+
+        <Button
+            android:id="@id/delete"
+            android:layout_width="@dimen/dimen_72dp"
+            android:layout_height="@dimen/dimen_72dp"
+            android:layout_marginLeft="@dimen/dimen_8dp"
+            android:background="@drawable/other_button_drawable"
+            android:gravity="bottom|right"
+            android:padding="@dimen/dimen_10dp"
+            android:text="@string/delete" />
+
+        <Button
+            android:id="@id/divide"
+            android:layout_width="@dimen/dimen_72dp"
+            android:layout_height="@dimen/dimen_72dp"
+            android:layout_marginLeft="@dimen/dimen_8dp"
+            android:background="@drawable/other_button_drawable"
+            android:gravity="bottom|right"
+            android:padding="@dimen/dimen_10dp"
+            android:text="@string/divide" />
+
+        <Button
+            android:id="@id/multiply"
+            android:layout_width="@dimen/dimen_72dp"
+            android:layout_height="@dimen/dimen_72dp"
+            android:layout_marginLeft="@dimen/dimen_8dp"
+            android:background="@drawable/other_button_drawable"
+            android:gravity="bottom|right"
+            android:padding="@dimen/dimen_10dp"
+            android:text="@string/multiply" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_15dp"
+        android:layout_marginRight="@dimen/dimen_15dp"
+        android:layout_marginTop="@dimen/dimen_12dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@id/id_7"
+            android:layout_width="@dimen/dimen_72dp"
+            android:layout_height="@dimen/dimen_72dp"
+            android:background="@drawable/other_button_drawable"
+            android:gravity="bottom|right"
+            android:padding="@dimen/dimen_10dp"
+            android:text="@string/number_7" />
+
+        <Button
+            android:id="@id/id_8"
+            android:layout_width="@dimen/dimen_72dp"
+            android:layout_height="@dimen/dimen_72dp"
+            android:layout_marginLeft="@dimen/dimen_8dp"
+            android:background="@drawable/other_button_drawable"
+            android:gravity="bottom|right"
+            android:padding="@dimen/dimen_10dp"
+            android:text="@string/number_8" />
+
+        <Button
+            android:id="@id/id_9"
+            android:layout_width="@dimen/dimen_72dp"
+            android:layout_height="@dimen/dimen_72dp"
+            android:layout_marginLeft="@dimen/dimen_8dp"
+            android:background="@drawable/other_button_drawable"
+            android:gravity="bottom|right"
+            android:padding="@dimen/dimen_10dp"
+            android:text="@string/number_9" />
+
+        <Button
+            android:id="@id/id_sub"
+            android:layout_width="@dimen/dimen_72dp"
+            android:layout_height="@dimen/dimen_72dp"
+            android:layout_marginLeft="@dimen/dimen_8dp"
+            android:background="@drawable/other_button_drawable"
+            android:gravity="bottom|right"
+            android:padding="@dimen/dimen_10dp"
+            android:text="@string/sub" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_15dp"
+        android:layout_marginRight="@dimen/dimen_15dp"
+        android:layout_marginTop="@dimen/dimen_12dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@id/id_4"
+            android:layout_width="@dimen/dimen_72dp"
+            android:layout_height="@dimen/dimen_72dp"
+            android:background="@drawable/other_button_drawable"
+            android:gravity="bottom|right"
+            android:padding="@dimen/dimen_10dp"
+            android:text="@string/number_4" />
+
+        <Button
+            android:id="@id/id_5"
+            android:layout_width="@dimen/dimen_72dp"
+            android:layout_height="@dimen/dimen_72dp"
+            android:layout_marginLeft="@dimen/dimen_8dp"
+            android:background="@drawable/other_button_drawable"
+            android:gravity="bottom|right"
+            android:padding="@dimen/dimen_10dp"
+            android:text="@string/number_5" />
+
+        <Button
+            android:id="@id/id_6"
+            android:layout_width="@dimen/dimen_72dp"
+            android:layout_height="@dimen/dimen_72dp"
+            android:layout_marginLeft="@dimen/dimen_8dp"
+            android:background="@drawable/other_button_drawable"
+            android:gravity="bottom|right"
+            android:padding="@dimen/dimen_10dp"
+            android:text="@string/number_6" />
+
+        <Button
+            android:id="@id/plus"
+            android:layout_width="@dimen/dimen_72dp"
+            android:layout_height="@dimen/dimen_72dp"
+            android:layout_marginLeft="@dimen/dimen_8dp"
+            android:background="@drawable/other_button_drawable"
+            android:gravity="bottom|right"
+            android:padding="@dimen/dimen_10dp"
+            android:text="@string/plus" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/dimen_15dp"
+        android:layout_marginRight="@dimen/dimen_15dp"
+        android:layout_marginTop="@dimen/dimen_12dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@id/id_1"
+                    android:layout_width="@dimen/dimen_72dp"
+                    android:layout_height="@dimen/dimen_72dp"
+                    android:layout_marginLeft="@dimen/dimen_8dp"
+                    android:background="@drawable/other_button_drawable"
+                    android:gravity="bottom|right"
+                    android:padding="@dimen/dimen_10dp"
+                    android:text="@string/number_1" />
+
+                <Button
+                    android:id="@id/id_2"
+                    android:layout_width="@dimen/dimen_72dp"
+                    android:layout_height="@dimen/dimen_72dp"
+                    android:layout_marginLeft="@dimen/dimen_8dp"
+                    android:background="@drawable/other_button_drawable"
+                    android:gravity="bottom|right"
+                    android:padding="@dimen/dimen_10dp"
+                    android:text="@string/number_2" />
+
+                <Button
+                    android:id="@id/id_3"
+                    android:layout_width="@dimen/dimen_72dp"
+                    android:layout_height="@dimen/dimen_72dp"
+                    android:layout_marginLeft="@dimen/dimen_8dp"
+                    android:background="@drawable/other_button_drawable"
+                    android:gravity="bottom|right"
+                    android:padding="@dimen/dimen_10dp"
+                    android:text="@string/number_3" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dimen_12dp">
+
+                <Button
+                    android:id="@id/id_0"
+                    android:layout_width="@dimen/dimen_152dp"
+                    android:layout_height="@dimen/dimen_72dp"
+                    android:layout_marginLeft="@dimen/dimen_8dp"
+                    android:background="@drawable/other_button_drawable"
+                    android:gravity="bottom|right"
+                    android:padding="@dimen/dimen_10dp"
+                    android:text="@string/number_0" />
+
+                <Button
+                    android:id="@id/point"
+                    android:layout_width="@dimen/dimen_72dp"
+                    android:layout_height="@dimen/dimen_72dp"
+                    android:layout_marginLeft="@dimen/dimen_8dp"
+                    android:background="@drawable/other_button_drawable"
+                    android:gravity="bottom|right"
+                    android:padding="@dimen/dimen_10dp"
+                    android:text="@string/point" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@id/equal"
+            android:layout_width="@dimen/dimen_72dp"
+            android:layout_height="@dimen/dimen_156dp"
+            android:layout_marginLeft="@dimen/dimen_8dp"
+            android:background="@drawable/equal_drawable"
+            android:gravity="bottom|right"
+            android:padding="@dimen/dimen_10dp"
+            android:text="@string/equal" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tv_result" type="id" />
+    <item name="clear" type="id" />
+    <item name="delete" type="id" />
+    <item name="divide" type="id" />
+    <item name="multiply" type="id" />
+    <item name="id_7" type="id" />
+    <item name="id_8" type="id" />
+    <item name="id_9" type="id" />
+    <item name="id_sub" type="id" />
+    <item name="id_4" type="id" />
+    <item name="id_5" type="id" />
+    <item name="id_6" type="id" />
+    <item name="plus" type="id" />
+    <item name="id_1" type="id" />
+    <item name="id_2" type="id" />
+    <item name="id_3" type="id" />
+    <item name="id_0" type="id" />
+    <item name="point" type="id" />
+    <item name="equal" type="id" />
+</resources>
